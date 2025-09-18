@@ -1,108 +1,81 @@
-💬 CHAT-CORD
+# 💬 CHAT-CORD
 
-A real-time chat application built with Node.js, Express, Socket.IO, and Moment.js that allows users to join specific chat rooms and communicate instantly.
-```
-🚀 Features
+A **real-time chat application** built with **Node.js, Express, Socket.IO, and Moment.js** that allows users to join chat rooms and communicate instantly.  
 
-🔗 Real-time communication using Socket.IO
+---
 
-👥 Join chat rooms and chat with multiple users
+## 🚀 Features  
 
-⏰ Timestamps for each message with Moment.js
+- 🔗 **Real-time communication** using Socket.IO  
+- 👥 **Join chat rooms** and chat with multiple users  
+- ⏰ **Timestamps** for each message with Moment.js  
+- 🙌 **User join/leave notifications
+- 🖥️ **Responsive chat interface** (HTML, CSS, JS)  
+- 🛠️ Easy to extend (**private chats, emojis, file sharing, etc.**)  
 
-🙌 User join/leave notifications
+---
 
-🖥️ Simple and responsive chat interface
+## 🛠️ Tech Stack  
 
-🛠️ Easy to extend (add private chats, emojis, file sharing, etc.)
-```
-```
-🛠️ Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
 
-Backend: Node.js, Express
 
-Real-Time Engine: Socket.IO
+---
 
-Utilities: Moment.js
-
-Frontend: HTML, CSS, Vanilla JavaScript
-
-```
+## 📂 Project Structure  
 ```
 CHAT-CORD/
-├── public/            # Frontend (HTML, CSS, client JS)
-│   ├── css/           # Stylesheets
-│   ├── js/            # Client-side Socket.IO logic
-│   └── index.html     # Main chat UI
-├── utils/             # Helper functions (e.g. formatting messages)
-├── server.js          # Main Express + Socket.IO server
-├── package.json       # Dependencies & scripts
+├── public/ # Frontend (HTML, CSS, client JS)
+│ ├── css/ # Stylesheets
+│ ├── js/ # Client-side Socket.IO logic
+│ └── index.html # Main chat UI
+├── utils/ # Helper functions (e.g. formatting messages)
+├── server.js # Main Express + Socket.IO server
+├── package.json # Dependencies & scripts
 └── README.md
 
 ```
+⚙️ Installation*
+
 ```
-⚙️ Getting Started
-1️⃣ Prerequisites
+### 1️⃣ Prerequisites  
+- [Node.js](https://nodejs.org/) (v14+)  
+- npm (comes with Node.js)  
 
-Install Node.js
- (v14+ recommended)
+### 2️⃣ Installation  
 
-npm (comes with Node.js)
+```bash
 # Clone this repository
 git clone https://github.com/harshsankhavara953/CHAT-CORD.git
 cd CHAT-CORD
 
 # Install dependencies
 npm install
-The server will start at:
-👉 http://localhost:3000
+3️⃣ Run the App
+npm start
+
+
+👉 The server will start at: http://localhost:3000
 
 ```
 ```
-📌 How It Works
 
-Open the app in a browser.
-
-Enter a username and choose a chat room.
-
-Start chatting in real-time with others in the same room.
-
-Messages display with timestamps and room events (user join/leave)
-```
-```
-📦 Dependencies
-
-express
- – Web framework
-
-socket.io
- – Real-time communication
-
-moment
- – Timestamps for messages
- ```
-```
-🤝 Contributing
-
-Contributions are welcome!
-
-Fork the project
-
-Create a feature branch (git checkout -b feature-name)
-
-Commit changes (git commit -m "Add feature")
-
-Push and open a Pull Request
-```
-```
 📄 License
 
 This project is licensed under the MIT License – see the LICENSE
  file for details.
- ```
 ```
+```
+
 👤 Author
 
 Harsh Sankhavara
 
 GitHub: @harshsankhavara953
+```
